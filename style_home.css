@@ -110,4 +110,5 @@ header{
     display: flex;
     width: 15vw;
     cursor: pointer;
+    border-radius: 5px;
 }
