@@ -19,6 +19,8 @@ header{
     height: 7vh;
     font-size: 18px;
     overflow-y: hidden;
+    position:fixed;
+    background-color: rgba(240, 248, 255, 0.734);
 }
 .menu-content{
     text-transform: uppercase;
@@ -91,7 +93,19 @@ header{
     width: 20vw;
     text-align:justify;
 }
+.categories-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5vw ;
+}
+#categories{
+    display: flex;
+    justify-content: space-between;
+    gap: 10vh;
+}
 #img-categorie{
     display: flex;
-    width: 14vw;
+    width: 15vw;
+    cursor: pointer;
 }
