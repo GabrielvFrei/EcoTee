@@ -10,8 +10,8 @@
     text-decoration: none;
 }
 html{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     font-size: 62,5%;
 }
 header{
@@ -97,12 +97,14 @@ header{
     justify-content: center;
     align-items: center;
     display: flex;
-    margin: 5vw ;
+    margin: 5vw;
+    margin-bottom: 10vw;
 }
 #categories{
     display: flex;
     justify-content: space-between;
     gap: 10vh;
+    margin-bottom: 10vh;
 }
 #img-categorie{
     display: flex;
