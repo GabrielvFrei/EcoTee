@@ -67,3 +67,31 @@ header{
     background: none;
 }
 /* ^HEADER^ */
+#top-container-image{
+    display: flex;
+    width: 70vw;
+    margin: 3vw;
+}
+.top-top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bottom-top-container h1{
+    margin: 0 0 1vh 0vw;
+}
+.bottom-top-container h2{
+    font-size: 12px;
+    width: 20vw;
+    text-align:justify;
+}
+#img-categorie{
+    display: flex;
+    width: 14vw;
+}
