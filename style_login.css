@@ -10,64 +10,11 @@
     text-decoration: none;
 }
 html{
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     font-size: 62,5%;
-    background-color: rgba(111, 111, 111, 0.145);
-}
-header{
-    width: 100%;
-    height: 7vh;
-    font-size: 18px;
-    overflow-y: hidden;
-}
-.menu-content{
-    text-transform: uppercase;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.menu-content .list-itens li{
-    cursor: pointer;
-    padding: 10vh;
-}
-.menu-content .list-itens{
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-}
-.logo{
-    letter-spacing: 4px;
-    font-size: 30px;
-    font-weight: 500;
-    display: block;
-}
-.menu-content .list-itens a{
-    text-decoration: none;
-    transform: 2ms ease-in;
-    position: relative;
-}
-#bag_header{
-    height: 2vw;
-    cursor: pointer;
-    transition: 1s;
-}
-#bag_header:hover{
-    background-color: rgb(206, 206, 206);
-    padding: 3px;
-    border-radius: 1vw;
-}
-#btn_login{
-    display: flex;
-    width: 9vw;
-    height: 5vh;
-    align-items: center;
-    justify-content: center;
-    border-radius: 3px;
-    background: none;
-}
-/* ^HEADER^ */
+}    
+
 .super-container{
     display: flex;
     justify-content: center;
@@ -108,6 +55,7 @@ header{
     border: none;
     border-radius: 1vh;
     padding: 1vh;
+    text-transform:none;
 }
 #btn-enter{
     display: flex;
