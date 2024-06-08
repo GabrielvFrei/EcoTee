@@ -18,8 +18,13 @@ include('header.php');
             <div class="right-container">
                 <div class="right-container">
                     <h1>login</h1>
+<<<<<<< HEAD
                     <input name="nome" placeholder="Usuario" id="user" type="text">
                     <input name="senha" placeholder="Senha" id="pass" type="password">
+=======
+                    <input name="nome" placeholder="usuario" id="user" type="text">
+                    <input name="senha" placeholder="senha" id="pass" type="password">
+>>>>>>> c445cc86ad851e5b656e78706e12c37bbc64341c
                     <button id="btn-enter" type="submit">Entrar</button>
                 </div>
                 <div class="bottom-container">
