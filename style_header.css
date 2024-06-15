@@ -66,4 +66,7 @@ header{
     border-radius: 3px;
     background: none;
 }
+.dropdown{
+    width: 6vw;
+}
 /* ^HEADER^ */

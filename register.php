@@ -26,7 +26,7 @@ include('header.php');
                 </div>
                 <div class="bottom-container">
                     <h1>Já possui uma conta?</h1>
-                    <a href="login.html"><button id="btn-enter" type="button">Entrar</button></a>
+                    <a href="login.php"><button id="btn-enter" type="button">Entrar</button></a>
                 </div>
             </div>
         </div>
