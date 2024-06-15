@@ -21,9 +21,9 @@
             <a href="index_home.php"><h1 class="logo">EcoTee</h1></a>
             <nav class="header-menu">
                 <ul class="list-itens">
-                    <li>MASCULINO</li>
-                    <li>FEMININO</li>
-                    <li>INFANTIL</li>
+                    <li>PRODUTOS</li>
+                    <li>SOBRE NÓS</li>
+                    <li>CONTATE-GNOS</li>
                 </ul>
             </nav>
             <?php
