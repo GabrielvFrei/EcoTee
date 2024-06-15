@@ -8,13 +8,16 @@
     color: rgb(31, 29, 29);
     text-transform: uppercase;
     text-decoration: none;
+    overflow-x: hidden;
 }
 html{
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     font-size: 62,5%;
 }    
-
+body{
+    overflow-y: visible;
+}
 .super-container{
     display: flex;
     justify-content: center;

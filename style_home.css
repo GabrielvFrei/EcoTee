@@ -8,7 +8,18 @@
     color: rgb(31, 29, 29);
     text-transform: uppercase;
     text-decoration: none;
+
 }
+body{
+    overflow-y: visible;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62,5%;
+    overflow-y: visible;
+    overflow-x: visible;
+}   
 #top-container-image{
     display: flex;
     width: 70vw;

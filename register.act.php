@@ -4,7 +4,7 @@ session_start();
 extract($_POST);
 
 if ($senha == $senhaconf && $senha != "") {
-    $hashpassword = password_hash($password, PASSWORD_DEFAULT);
+    $hashpassword = password_hash($senha, PASSWORD_DEFAULT);
 
 $sql = "INSERT INTO `clientes` (`cod`, `nome`, `email`, `senha`, `senhaconf`) VALUES ('$cod', '$nome', '$email', '$senha', '$senhaconf')";
 

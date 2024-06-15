@@ -8,15 +8,17 @@
     color: rgb(31, 29, 29);
     text-transform: uppercase;
     text-decoration: none;
+    overflow-x: hidden;
 }
-/* ^HEADER^ */
+body{
+    overflow-y: visible;
+}
 .super-container{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 90vh;
-
 }
 .left-container{
     display: flex;

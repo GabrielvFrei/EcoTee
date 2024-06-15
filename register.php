@@ -17,9 +17,9 @@ include('header.php');
             </div>
             <div class="right-container">
                 <div class="right-container">
-                    <h1>login</h1>
+                    <h1>Registro</h1>
                     <input placeholder="Nome de usuario" name="nome" id="user" type="text">
-                    <input placeholder="Email" name="email" id="email" type="text">
+                    <input placeholder="Email" name="email" id="email" type="email">
                     <input placeholder="Senha" name="senha" id="password" type="password">
                     <input placeholder="Confirmação de senha" name="senhaconf" id="passwordConf" type="password">
                     <button type="submit" id="btn_register">Registro</button>

@@ -6,7 +6,7 @@
     $user = "SELECT `nome` FROM clientes WHERE `cod` = '$id'";
     $query = mysqli_query($con, $user);
     $queryFetch = mysqli_fetch_assoc($query);
-    ?>;
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,17 +21,19 @@
             <a href="index_home.php"><h1 class="logo">EcoTee</h1></a>
             <nav class="header-menu">
                 <ul class="list-itens">
-                    <li>PRODUTOS</li>
-                    <li>SOBRE NÓS</li>
-                    <li>CONTATE-GNOS</li>
+                    <a href="produtos.php"><li>PRODUTOS</li></a>
+                    <li>CONTATE-NOS</li>
                 </ul>
             </nav>
             <?php
             if ($id < 1) {
-            echo '<a href="login.php"><button id="btn_login">Login</button></a>';
-            }else{
-            echo '<a href="#">MINHA CONTA</a>';
-            echo '<a href="sair.act.php">sair</a>';
+                echo '<a href="login.php" id"btns_header"><button id="btn_login">Login</button></a>';
+            }if($id == 34){
+                echo '<a href="cadastrarProduto.php" id="btns_header">cadastrar produtos</a>';
+                echo '<a href="sair.act.php" id="bttns_header" >sair</a>';
+            }if($id > 1 && $id != 34){
+                echo '<a href="minhaConta.php" id="btns_header" >MINHA CONTA</a>';
+                echo '<a href="sair.act.php" id="bttns_header" >sair</a>';
             };
             ?>
             <img src="icons/bagIcon.png" alt="bag" srcset="" id="bag_header">

@@ -3,7 +3,7 @@ require('connect.php');
 session_start();
 if (isset($_POST['nome']) || isset($_POST['senha'])) {
     if(strlen($_POST['nome']) < 1 || strlen($_POST['senha']) < 1) {
-        echo "Preencha seu email ou senha";
+        header("Location: login.php");
 }else {
     $nome = $con->real_escape_string($_POST['nome']);
     $senha = $con->real_escape_string($_POST['senha']);

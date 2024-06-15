@@ -8,39 +8,39 @@
     color: rgb(31, 29, 29);
     text-transform: uppercase;
     text-decoration: none;
-
+    overflow-x: hidden;
+    overflow-y: visible;
 }
+
 html{
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     font-size: 62,5%;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .super-container{
     display: flex;
-    height: 90vh;
-    width: 90vw;
+    height: 89vh;
+    width: 100vw;
     flex-wrap: wrap;
     justify-content: center;
 }
 #card{
     display: flex;
-    width: 30vw;
+    width: 40vw;
     flex-direction: column; 
-    margin: 2vw;
+    margin: 1vh;
     margin-bottom: 2vw;
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(230, 230, 230, 0.411);
     padding: 2vh;
     border-radius: 1vh;
     justify-content: center;
 }
 #card img{
-    height: 60vh;
+    width: 100%;
 }
 #btn_carrinho{
     height: 7vh;
-    background-color: rgb(37, 179, 120);
+    background-color: rgb(126, 180, 182);
     border: none;
 }
