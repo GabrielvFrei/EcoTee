@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style_minhaConta.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <div class="super-container">
@@ -33,6 +34,7 @@
                 <h2 id="inf">Confirme sua senha</h2>
                 <input placeholder="Confirmação de senha" name="senhaconf" id="passwordConf" value="<?php echo $queryFetchh['senhaconf']?>" type="password">
                 <button type="submit" id="btn_register">Alterar</button>
+                <a href="erase.act.php"><button id="btn_erase">excluir</button></a>
             </form>
         </div>
     </div>

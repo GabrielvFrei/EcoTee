@@ -50,6 +50,7 @@ html{
     width: 35vw;
     margin: 0.5vh 0;
     padding-left: 1vh;
+    text-transform: none;
 }
 .right-container h1{
     margin-bottom: 2vw;

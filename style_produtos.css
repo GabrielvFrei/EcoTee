@@ -9,7 +9,7 @@
     text-transform: uppercase;
     text-decoration: none;
     overflow-x: hidden;
-    overflow-y: visible;
+    
 }
 
 html{
@@ -18,12 +18,17 @@ html{
     font-size: 62,5%;
     display: flex;
 }
+body{
+    overflow-y: hidden;
+}
 .super-container{
     display: flex;
     height: 89vh;
     width: 100vw;
     flex-wrap: wrap;
     justify-content: center;
+    overflow-y: visible;
+    align-items: center;
 }
 #card{
     display: flex;
@@ -31,16 +36,25 @@ html{
     flex-direction: column; 
     margin: 1vh;
     margin-bottom: 2vw;
-    background-color: rgba(230, 230, 230, 0.411);
+    background-color: rgba(230, 230, 230, 0);
     padding: 2vh;
     border-radius: 1vh;
     justify-content: center;
+    cursor: pointer;
 }
 #card img{
-    width: 100%;
+    width: 40vw;
 }
+
 #btn_carrinho{
     height: 7vh;
     background-color: rgb(126, 180, 182);
     border: none;
 }
+#btn_carrinho img{
+    width: 2vw;
+}
+#nome{
+    font-size: large;
+}
+
