@@ -34,7 +34,14 @@
                 <h2 id="inf">Confirme sua senha</h2>
                 <input placeholder="Confirmação de senha" name="senhaconf" id="passwordConf" value="<?php echo $queryFetchh['senhaconf']?>" type="password">
                 <button type="submit" id="btn_register">Alterar</button>
-                <a href="erase.act.php"><button id="btn_erase">excluir</button></a>
+            </form>
+            <form method="get" action="erase.act.php">
+                <input type="hidden" name="id" value="<?php echo $queryFetchh['cod']?>">
+                <input placeholder="Nome de usuario" name="nome" id="user" value="<?php echo $queryFetchh['nome']?>" type="hidden">
+                <input placeholder="Email" name="email" id="email" value="<?php echo $queryFetchh['email']?>" type="hidden">
+                <input placeholder="Senha" name="senha" id="password" value="<?php echo $queryFetchh['senha']?>" type="hidden">
+                <input placeholder="Confirmação de senha" name="senhaconf" id="passwordConf" value="<?php echo $queryFetchh['senhaconf']?>" type="hidden">
+                <button type="submit" id="btn_erase">excluir</button>
             </form>
         </div>
     </div>

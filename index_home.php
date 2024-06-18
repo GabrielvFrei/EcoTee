@@ -22,9 +22,9 @@ include('header.php');
     <div class="bottom-container">
         <div class="categories-container">
             <ul id="categories">
-                <li><img id="img-categorie" src="imgs_home/image_categories1.png" alt="" srcset=""></li>
-                <li><img id="img-categorie" src="imgs_home/image_categories2.png" alt="" srcset=""></li>
-                <li><img id="img-categorie" src="imgs_home/image_categories3.png" alt="" srcset=""></li>
+                <a href="produtos.php"><li><img id="img-categorie" src="imgs_home/image_categories1.png" alt="" srcset=""></li></a>
+                <a href="produtos.php"><li><img id="img-categorie" src="imgs_home/image_categories2.png" alt="" srcset=""></li></a>
+                <a href="produtos.php"><li><img id="img-categorie" src="imgs_home/image_categories3.png" alt="" srcset=""></li></a>
             </ul>
         </div>
     </div>

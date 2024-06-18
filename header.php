@@ -26,9 +26,9 @@
                 </ul>
             </nav>
             <?php
-            if ($id < 1) {
-                echo '<a href="login.php" id"btns_header"><button id="btn_login">Login</button></a>';
-            }if($id == 34){
+                if ($id < 1){
+                    echo '<a href="login.php" id"btns_header"><button id="btn_login">Login</button></a>';}
+                if($id == 34){
                 echo '<a href="cadastrarProduto.php" id="btns_header">cadastrar produtos</a>';
                 echo '<a href="sair.act.php" id="bttns_header" >sair</a>';
             }if($id > 1 && $id != 34){
