@@ -6,8 +6,13 @@ $stmt = $con->prepare("DELETE FROM `clientes` WHERE `clientes`.`cod` = ?");
 $stmt->bind_param("i", $id);
 
 if ($stmt->execute()) {
-    header('Location:login.php');
+    if (!isset($_SESSION)) {
+        session_start();
+    }
+    
     session_destroy();
+    header("Location:index_home.php");
+    header('Location:login.php');
     mysqli_query($con, "UPDATE `clientes` SET 
     `cod` = '$id'");
 } else {
