@@ -1,6 +1,7 @@
 <?php 
     include("header.php");
     require("connect.php");
+    @$id = $_SESSION['cod'];
 
     $produtos = mysqli_query($con,"SELECT * FROM `tb_produtos`");
     echo "<div class='super-container'>";
@@ -10,10 +11,10 @@
             echo "<h1 id='nome'>$produto[nome]</h1>";
             echo "<h2 id='preço'>R$$produto[preco]</h2>";
             echo "<button id='btn_carrinho' type='button'><img src='imgs_index_produto/sacola.png' alt='' srcset=''></button>";
-            if ($id = 34) {
+            if ($id == 34) {
             echo "<form method='post' action='excluir_produto.act.php'>";
-            echo "<input name='nome_produto type="hidden">$produto[cod_produto]";
-            echo "<button id='btn_carrinho' type='submit'><img src='imgs_index_produto/excluir.png' alt='' srcset=''></button>";  
+            echo "<input name='cod_produto' value='$produto[cod_produto]' type='hidden'>";
+            echo "<button id='excluir_img' type='submit'><img src='imgs_index_produto/excluir.png' alt='' srcset=''></button>";  
             echo "</form>";
             }    
         echo "</div>";

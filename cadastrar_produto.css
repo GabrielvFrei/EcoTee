@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(31, 29, 29);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+body{
+    overflow-y: visible;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62,5%;
+    overflow-y: visible;
+    overflow-x: visible;
+}   
+.super-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 20vw;
+    height: 5vh;
+    margin: 1vw;
+}

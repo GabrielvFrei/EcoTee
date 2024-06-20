@@ -22,7 +22,7 @@
             <nav class="header-menu">
                 <ul class="list-itens">
                     <a href="produtos.php"><li>PRODUTOS</li></a>
-                    <li>CONTATE-NOS</li>
+                    <a href="fale_conosco.php"><li>CONTATE-NOS</li></a>
                 </ul>
             </nav>
             <?php
