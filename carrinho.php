@@ -23,7 +23,7 @@
                 <ul class="list-itens">
                     <li>MASCULINO</li>
                     <li>FEMININO</li>
-                    <li>INFANTIL</li>
+                   
                 </ul>
             </nav>
             <a href="/login/login.html"><button id="btn_login">Login</button></a>
