@@ -18,7 +18,7 @@ if (isset($_POST['nome']) || isset($_POST['senha'])) {
         }
         $_SESSION['cod'] = $usuario['cod'];
         $_SESSION['senha'] = $usuario['senha'];
-        header("Location: index_home.php");
+        header("Location: index.php");
     }else {
         echo "Falha ao logar!";
     }
